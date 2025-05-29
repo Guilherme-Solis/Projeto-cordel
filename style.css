@@ -16,17 +16,18 @@
 }
 
 header {
-    height: 350px;
+
     background-color: black;
     margin-bottom: 10px;
 }
 
 header > h1 {
-    font-size: 9em;
+    font-size: 8vw;
     font-family: var(--fonte1);
     color: white;
     text-align: center;
     padding-top: 20px;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -36,11 +37,7 @@ header > p {
     padding-bottom: 30px;
 }
 
-.letra-maior {
-    font-family: var(--fonte1);
-    font-weight: 700;
-    font-size: 1.5em;
-}
+
 
 header > p > a {
     color: white;
@@ -56,10 +53,14 @@ header > p > a:hover {
 
 main p {
     font-family: var(--fonte2);
-    font-size: 4em;
-    margin-bottom: 100px;
-    padding-left: 40px;
+    font-size: 3.5vw;
+    padding: 2em;
 
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 
@@ -67,10 +68,9 @@ main p {
     background-color: black;
     background-image: url("https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg");
 
-    height: 1200px;
     padding-top: 80px;
     padding-left: 40px;
-
+    box-shadow: inset 2px 2px 20px 6px black;
     
     background-repeat: no-repeat;
     background-position: center right;
@@ -81,17 +81,18 @@ main p {
 #q1-1 {
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
-    width: 800px;
-    height: 1000px;
+    display: inline-block;
+    padding: 10px;
+
 }
 
 #q2 {
     background-color: black;
     background-image: url("https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg");
 
-    height: 1000px;
     padding-top: 80px;
     padding-left: 40px;
+    box-shadow: inset 2px 2px 20px 6px black;
 
     
     background-repeat: no-repeat;
@@ -103,8 +104,9 @@ main p {
 #q2-1 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 800px;
-    height: 800px;
+    display: inline-block;
+    padding: 10px;
+
 }
 
 
